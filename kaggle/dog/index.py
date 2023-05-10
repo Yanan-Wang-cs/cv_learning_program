@@ -3,18 +3,14 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from torch.autograd import Variable
-import torch.nn.functional as F
 import numpy as np
-import torchvision
 from torchvision import datasets, models, transforms
-from torch.utils.data import Dataset, DataLoader
 import matplotlib.pyplot as plt
 import time
 import os
 import copy
 import pandas as pd
 import pickle
-from skimage import io, transform
 from PIL import Image
 from dataset import DogDataset
 import csv

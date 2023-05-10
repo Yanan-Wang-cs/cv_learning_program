@@ -1,10 +1,7 @@
-import torchvision
-from torchvision import datasets, models, transforms
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import pandas as pd
 import os
-from skimage import io, transform
 from PIL import Image
 import csv
 
